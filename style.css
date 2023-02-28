@@ -1,0 +1,55 @@
+@import url('https://fonts.googleapis.com/css2?family=Pacifico&display=swap');
+
+*{
+    cursor: none;
+}
+
+body{
+    background: url('https://cdn.pixabay.com/photo/2016/11/22/14/42/globe-1849404_960_720.png') ;
+    background-repeat:no-repeat;
+    background-size: cover;
+    color: rgb(171, 247, 252);
+}
+
+.center{
+    width: fit-content;
+    font-size: 17vh;
+    font-family: 'Pacifico', cursive;
+    margin: auto;
+    margin-top: 15%;
+
+    -webkit-animation: glow 1s ease-in-out infinite alternate;
+    -moz-animation: glow 1s ease-in-out infinite alternate;
+    animation: glow 1s ease-in-out infinite alternate;
+}
+
+
+@keyframes glow {
+    from {
+      text-shadow: 0 0 10px #fff, 0 0 20px #fff, 0 0 30px #e60073, 0 0 40px #e60073, 0 0 50px #e60073, 0 0 60px #e60073, 0 0 70px #e60073;
+    }
+    to {
+      text-shadow: 0 0 20px #fff, 0 0 30px #ff4da6, 0 0 40px #ff4da6, 0 0 50px #ff4da6, 0 0 60px #ff4da6, 0 0 70px #ff4da6, 0 0 80px #ff4da6;
+    }
+  }
+
+#notation{
+    font-size: 13vh;
+}
+
+
+.myStyle {
+    display: block;
+    margin: 0;
+    
+    padding-top: 1px;
+    margin-top: 25px;
+    margin-bottom: 0;
+    width: 100vh;
+    margin-left: 0;
+    margin-right: 0;
+    border-top: 4px ridge blue;
+    border-bottom: 4px groove blue;
+    background: none;
+    background-color: yellow;
+  }
